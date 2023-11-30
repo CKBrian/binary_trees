@@ -26,7 +26,6 @@ int is_full(const binary_tree_t *tree)
  */
 int binary_tree_is_full(const binary_tree_t *tree)
 {
-	printf("tree output == %d", is_full(tree));
 	if (tree == NULL || is_full(tree) > 0)
 		return (0);
 
